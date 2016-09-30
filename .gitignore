@@ -1,0 +1,5 @@
+node_modules
+bin
+Debug
+wwwroot\lib
+typings
