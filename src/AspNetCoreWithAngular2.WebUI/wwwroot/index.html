@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <title>ASP.NET Core with Angular2 - Boilerplace</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <main-app>
+        <div class="container body-content text-center">
+            Loading...
+        </div>
+    </main-app>
+
+    <script src="lib/shim.min.js"></script>
+    <script src="lib/zone.js"></script>
+    <script src="lib/Reflect.js"></script>
+    <script src="lib/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+
+    <script>
+        System.import('app').catch(function (err) { console.error(err); });
+    </script>
+
+</body>
+</html>
