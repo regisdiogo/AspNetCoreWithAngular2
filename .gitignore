@@ -1,3 +1,6 @@
+.vs
+*.xproj.user
+**/wwwroot/**/*.{js,map}
 node_modules
 bin
 Debug
